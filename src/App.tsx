@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [inputSearch, setInputSearch] = useState<string>('');
-  
+  //ultimo cambio
   const PEXELS_API_KEY: string = 'WVk1ikz7ZWL4S0i3SJHIwzrww76C3qrIjUAMwbpVAmNqlxWLBFbw6tmn';
 
   useEffect(() => {
