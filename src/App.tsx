@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [inputSearch, setInputSearch] = useState<string>('');
-  //prueba
+  
   const PEXELS_API_KEY: string = 'WVk1ikz7ZWL4S0i3SJHIwzrww76C3qrIjUAMwbpVAmNqlxWLBFbw6tmn';
 
   useEffect(() => {
@@ -65,7 +65,7 @@ function App() {
           placeholder="Busca imágenes..."
           className="search-input"
         />
-        <button type="submit" className="search-button">Buscar</button>
+        <button type="submit" className="search-button">Buscar cambio</button>
       </form>
 
       {loading && <p>Cargando imágenes...</p>}
