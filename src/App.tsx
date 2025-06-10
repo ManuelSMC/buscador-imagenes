@@ -65,7 +65,7 @@ function App() {
           placeholder="Busca imágenes..."
           className="search-input"
         />
-        <button type="submit" className="search-button">Buscar cambio final</button>
+        <button type="submit" className="search-button">Buscar cambio finalll</button>
       </form>
 
       {loading && <p>Cargando imágenes...</p>}
